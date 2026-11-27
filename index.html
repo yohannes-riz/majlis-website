@@ -152,6 +152,8 @@ figure{margin:0}
 .tier .p{font-size:16px}
 .tier .mc{transition:transform 1s var(--ease)}
 .tier:hover .mc{transform:translateY(-10px)}
+.step-n{display:block;font-family:var(--serif);font-size:clamp(44px,4.4vw,64px);line-height:1;color:var(--bronze)}
+.step h3{margin-top:22px;line-height:1.12}
 @media (max-width:760px){.tiers{grid-template-columns:minmax(0,1fr);gap:64px}.tier{max-width:420px;margin:0 auto;width:100%}}
 
 /* Close */
@@ -178,7 +180,7 @@ footer a{color:var(--muted);border-bottom:1px solid var(--line)}
 <body>
 <header class="top">
   <a class="word" href="#top" aria-label="Majlis, back to top">MAJLIS</a>
-  <nav aria-label="Sections"><a href="#card">The card</a><a href="#world">The app</a><a href="#ecosystem">Ecosystem</a><a href="#membership">Membership</a></nav>
+  <nav aria-label="Sections"><a href="#card">The card</a><a href="#world">The app</a><a href="#how">How it works</a><a href="#ecosystem">Ecosystem</a><a href="#membership">Membership</a></nav>
   <a class="pill" href="#join">Request an invitation</a>
 </header>
 
@@ -241,6 +243,18 @@ footer a{color:var(--muted);border-bottom:1px solid var(--line)}
         <div class="prow" style="border:0;padding:0"><b>Reliability</b><span>94%</span></div><div class="pbar"><i style="width:94%"></i></div>
         <p class="pk" style="margin-top:auto">Eligibility</p><p class="pt">Private</p>
       </div></div><figcaption><b>Your standing</b>A private profile that raises your limits as you grow.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="sec char" aria-labelledby="h-how">
+  <div class="wrap">
+    <p class="kicker" data-r>How it works</p>
+    <h2 class="d2" id="h-how" data-lines><span class="ln"><span>Credit that reads</span></span><span class="ln" style="--i:1"><span>the way you earn.</span></span></h2>
+    <div class="tiers">
+      <div class="tier step" data-r><span class="step-n">01</span><h3>Connect your income.</h3><p class="p">Link the platforms that pay you, from content sales and subscriptions to brand invoices.</p></div>
+      <div class="tier step" data-r style="--i:1"><span class="step-n">02</span><h3>Your metrics set the limit.</h3><p class="p">Lending is based on your metrics. Paid content and recurring platform income form your credit limit, not a salary slip.</p></div>
+      <div class="tier step" data-r style="--i:2"><span class="step-n">03</span><h3>Your limit grows with you.</h3><p class="p">As your income repeats, your Creator Score rises and your limit follows.</p></div>
     </div>
   </div>
 </section>
